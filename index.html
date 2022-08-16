@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="CSS/estilos.CSS">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="IMG/hamburguesa.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion spread">
+            <a href="#inicio">Inicio</a>
+            <a href="#¿Que es HTML?">¿Que es HTML?</a>
+            <a href="#Principios HTML">Principios HTML</a>
+            <a href="#Portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Aprende sobre HTML</h1>
+            <p class="copy">Aprende desde cero a diseñar tus paginas Web.</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="¿Que es HTML?">
+            <H2 class="subtitulo">¿Que es HTML?</H2>
+            <p>HTML es el lenguaje con el que se define el contenido de las páginas web. 
+                Básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que
+                 compondrán una página web, como imágenes, listas, vídeos, etc.</p>
+            <p> “HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. 
+                Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”.
+                No obstante, este tipo de definiciones no nos dice mucho porque la definición es técnica. Para algunas personas al leer esto,
+                piensan que HTML incluye el diseño gráfico de las páginas web, sin embargo, eso no es cierto ya que HTML sólo sirve para indicar
+                como va ordenado el contenido de una página web. Esto lo hace por medio de las marcas de hipertexto las cuales son etiquetas
+                 conocidas en inglés como tags.</p>
+            <p>Estas etiquetas se caracterizan porque van dentro de 2 caracteres <,> menor que y mayor que. </p>     
+        </section>
+       
+        <section class="galery" id="Portafolio">
+            <div class="contenedor-galeria">
+                <h2 class="subttitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="IMG/img1.jpg" alt="" class=img-galeria">
+                    <img src="IMG/img2.jpg" alt="" class=img-galeria">
+                    <img src="IMG/img3.jpg" alt="" class=img-galeria">
+                    <img src="IMG/img4.jpg" alt="" class=img-galeria">
+                    <img src="IMG/img5.jpg" alt="" class=img-galeria">
+                    <img src="IMG/img6.jpg" alt="" class=img-galeria">
+                </div>
+            </div>
+        </section>
+
+        <section class="services contenedor" id="Principios HTML">
+            <h2 class="subtitulo">Principios HTML</h2>
+        <div class="contenedor-Principios HTML">
+                <img src="img/computer1.svg" alt="">
+                <div class="checklist-Principios HTML">
+                    <div class="service">
+                        <h3 class="n-service"><spna class="number">1</spna>Las partes de la pagina web</h3>
+                        <pre>Toda página web se divide en dos partes principales: la cabecera y el cuerpo (head y  body).
+
+                            La cabecera es la parte «no visible» de la página web. Esto significa que todo lo que se indique ahí 
+                            no aparecerá en la página como tal, pero sin embargo es una parte importantísima: ahí se incluyen las etiquetas 
+                            meta que se usan para describir la página
+
+                            En el body se introducen todas las etiquetas que nos permiten dar formato al documento.
+
+                            Como esta guía está destinada a pequeñas modificaciones en el cuerpo de la página web, describiré las etiquetas del body y no mencionaré 
+                            nada más sobre la cabecera.
+                        </pre>
+                        
+                    </div>
+                <div class="checklist-Principios HTML">
+                    <div class="service">
+                        <h3 class="n-service"><spna class="number">2</spna>Parrafos y Listas</h3>
+                        <pre>Los párrafos se delimitan con las etiquetas <> dentro de la etiqueta va la letra p. Un párrafo es un bloque de texto
+                         que se muestra separado del resto por un salto de línea.
+                        
+                         Para realizar una tabla debemos tener en cuenta que se está realizando de izquierda a derecha y de arriba abajo. Es decir, empezamos desarrollando la primera fila,
+                          dentro de ella, las determinadas columnas que haya, y a continuación, la siguiente fila.</pre>
+
+                    </div>
+                <div class="checklist-Principios HTML">
+                    <div class="service">
+                        <h3 class="n-service"><spna class="number">3</spna>Enlaces y Estilo</h3>
+                        <pre>Los enlaces nos permiten acceder a otras páginas, sitios web, ficheros (de música, vídeos, programas, imágenes, etc.), permiten descargar archivos de la red y acceder a otras
+                             partes o secciones dentro de un documento
+                            
+                             Lo normal es que los estilos se especifiquen en el fichero css, pero como he pretendido que esta guía sirva para realizar pequeñas modificaciones esporádicas, considero que aplicar 
+                             estilos directamente en una etiqueta de html es una opción recomendable y que nos permite dar solución a problemas que no podemos solventar en nuestro cms, o porque la plantilla no 
+                             nos da opción.</pre>
+
+                    </div>
+
+                </div>
+
+        </div>
+        </section>
+
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Aprendiendo con Uniminuto</h2>
+                <p>Aprendamos sobre HTML</p>
+            </div>
+            <div class="social-mediam">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    
+    <script src="JS/menu.JS"></script>
+    <script src="JS/lightbox.JS"></script>
+
+</body>
+</html>
